@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+
+# AWS / secrets
+.aws/
+*.pem
+*.key
+*.crt
+.env*
+credentials
+config
+
+# Runtime outputs
+sg_reports/*.json
+rollback/*.json
+
+# Keep folders
+!sg_reports/.gitkeep
+!rollback/.gitkeep
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
